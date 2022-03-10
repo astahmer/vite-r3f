@@ -4,7 +4,6 @@ import { ChakraProvider, Flex, extendTheme } from "@chakra-ui/react";
 import { QueryClient, QueryClientProvider } from "react-query";
 
 import { AppCanvas } from "./components/AppCanvas";
-import { Demo } from "./components/Demo";
 
 const queryClient = new QueryClient();
 
