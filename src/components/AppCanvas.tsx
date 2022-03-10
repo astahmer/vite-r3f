@@ -5,7 +5,7 @@ import { CameraControls } from "./CameraControls";
 
 export const AppCanvas = () => {
     return (
-        <Canvas orthographic gl={{ antialias: false }} camera={{ position: [0, 20, 0], up: [0, -1, 0], zoom: 50 }}>
+        <Canvas shadows orthographic gl={{ antialias: true }} camera={{ position: [0, 0, 25], zoom: 50 }} id="canvas">
             <axesHelper />
             <Suspense fallback={null}>{/* <Spritesheet /> */}</Suspense>
             <CameraControls />
